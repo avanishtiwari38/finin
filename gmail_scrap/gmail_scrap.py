@@ -43,7 +43,8 @@ class GmailFinin():
 
     def checkIfUsersWantsToContinue(self):
         print("\nWe have found "+str(len(self.idsList))+" emails in the mailbox "+self.mailbox+".")
-        return True if input("Do you wish to continue extracting all the emails into "+self.destFolder+"? (y/N) ").lower().strip()[:1] == "y" else False
+        print("\n For following keywords",self.keywords)
+        return True if input("\nDo you wish to continue extracting all the emails into "+self.destFolder+"? (y/N) ").lower().strip()[:1] == "y" else False
 
 
     def selectMailbox(self):
