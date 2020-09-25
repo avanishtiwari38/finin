@@ -1,0 +1,3 @@
+[2019-07-03 15:30:34,884] WARNING in _internal._log Line 122:  * Debugger is active!
+[2019-07-03 15:30:34,885] INFO in _internal._log Line 122:  * Debugger PIN: 243-194-732
+[2019-07-03 16:38:12,945] INFO in _internal._log Line 122:  * Detected change in '/var/www/html/token_problem/token_problem/app/__init__.py', reloading
